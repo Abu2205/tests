@@ -8,10 +8,15 @@
 
 from src.capitalize import capitalize
 
-if capitalize('asd') != 'Hello':
-    raise Exception('Функция работает неверно!')
+#if capitalize('asd') != 'Hello':
+    #raise Exception('Функция работает неверно!')
 
-if capitalize('Asd') != 'asd':
-    raise Exception('Функция работает неверно!')
+#if capitalize('Asd') != 'asd':
+    #raise Exception('Функция работает неверно!')
+#from src.capitalize import capitalize
+
+assert capitalize('hello') == 'Hello'
+assert capitalize('') == ''
+
 
 print('Все тесты пройдены!')
